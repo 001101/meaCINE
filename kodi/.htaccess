@@ -1,0 +1,4 @@
+Options +Indexes
+IndexOptions +FancyIndexing
+RewriteEngine on
+RewriteRule ^(.*).mp4$ movie.php?id=$1 [R=301,L]

@@ -1,0 +1,221 @@
+html, body {
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+    font-size: 10px;
+}
+
+input {
+	font-size: 11px;
+	padding: 0px;
+	margin-bottom: 10px;
+}
+
+input.menu {
+	width: 90px;
+	margin-bottom : 0px;
+	margin-top : 0px;
+	padding: 0px;
+}
+
+input.red {
+	color: red;
+	font-weight: bold;
+}
+
+form {
+	margin-bottom : 2px;
+	margin-top : 0px;
+}
+
+input.title {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+a:link { font-weight:bold; color:#513934; text-decoration:none }
+a:visited { font-weight:bold; color:#513934; text-decoration:none }
+a:hover { font-weight:bold; color:#fbac5c; text-decoration:none }
+a:active { font-weight:bold; color:#fbac5c; text-decoration:underline }
+a:focus { font-weight:bold; color:#fbac5c; text-decoration:underline }
+
+h1 {
+	margin-top: 0px;
+	margin-bottom: 2px;
+	font-size: 18px;
+	font-weight: bold;
+    color: #444444;
+}
+
+div.main {
+	display:table;
+	height: 100%;
+}
+
+div.menu {
+	width: 120px;
+	vertical-align: top;
+	display: table-cell;
+	background-color: #dddddd;
+	padding: 10px;
+    white-space: nowrap;
+}
+
+div.content {
+	vertical-align: top;
+	width: 100%;
+	display:table-cell;
+	padding: 5px;
+	padding-left: 10px;
+}
+
+div.lists {
+	vertical-align: top;
+	display:table-cell;
+}
+
+div.list {
+	vertical-align: top;
+	float:left; 
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+div.list2 {
+	vertical-align: top;
+	display: table-cell;
+	margin-right: 10px;
+	padding-right: 10px;
+}
+
+div.item {
+	vertical-align: top;
+	width: 1250px;
+	display:table-cell;
+}
+
+img {
+    border: 1px solid #444444;
+}
+
+img.cover {
+	width: 200px;
+	height: 300px;
+	margin-right : 10px;
+}
+
+img.smallcover {
+	width: 100px;
+	height: 150px;
+	margin-right : 5px;
+	margin-bottom : 5px;
+}
+
+img.fanart {
+	width: 533px;
+	height: 300px;
+}
+
+img.logo {
+	width: 150px;
+	height: 150px;
+	margin-bottom : 10px;
+    border: 1px solid #444444;
+}
+
+img.mini {
+    border: 1px solid #444444;
+}
+
+img.minilogo {
+	width: 16px;
+	height: 16px;
+	margin-right : 4px;
+    border: 1px solid #aaaaaa;
+    border-radius: 8px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+img.minilogo:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+img.icon {
+    border: 0px;
+	width: 18px;
+	height: 18px;
+	vertical-align: middle;
+}
+
+iframe {
+	width: 266px;
+	height: 150px;
+    border: 1px solid #000000;
+	margin-bottom: 3px;
+	vertical-align: top;
+	display: inline;
+}
+
+div.table {
+	display:table;
+}
+
+div.row {
+	width: 500px;
+	display:table-cell;
+    padding-right:20px;
+}
+
+div.synopsis {
+	width: 741px;
+    padding-bottom:10px;
+    text-align: justify;
+}
+
+span.lang {
+    color: #555555;
+}
+
+span.missing {
+    color: red;
+    font-weight: bold;
+}
+
+h1 { font-size: 16px; font-weight: bolder; }
+h2 { font-size: 13px; font-weight: bold; }
+table { border-spacing: 0; border-collapse: collapse; border: 0px solid #000000; width: 760; }
+table.all { border-spacing: 0; border-collapse: collapse; border: 0px none; }
+table.graph { border-spacing: 0; border-collapse: collapse; border: 1px solid; }
+table.edit-movie { width: 10%; }
+th { font-size: 11px; font-weight: bold; text-align: center; padding: 10px; color: #ffffff; background-color: #222222; }
+td { font-size: 11px; text-align: center; padding: 5px; margin: 0; cellspacing: 0px; }
+tr.odd { background-color: #dddddd; }
+tr.even { background-color: #eeeeee; }
+td { width: 25%; text-align: left; }
+td.false { color: #de0303; }
+td.true { color: #1d8a03; }
+td.broken { color: #955959; font-style: italic; }
+td.all { vertical-align: top; text-align: left; }
+td.edit-movie { vertical-align: top; text-align: left; padding: 0px; padding-left: 5px; width: 1%;}
+a { text-decoration: none; font-weight: bold; color: #222222; }
+a.broken { text-decoration: none; font-weight: bold; color: #955959; font-style: italic; }
+
+td.sources { padding: 0px; padding-left: 5px; padding-right: 5px; width: auto; white-space: nowrap; }
+
+td.diffUnmodified {
+	text-align: left;
+}
+
+td.diffDeleted {
+	background-color: #ffe0e0;
+	text-align: left;
+}
+
+td.diffInserted {
+	background-color: #e0ffe0;
+	text-align: left;
+}
+
