@@ -22,7 +22,7 @@ where /home/mywebsite/public_html/meacine/ is the path where meaCINE is hosted.
 
 For the rest of this tutorial, we will keep as example that meaCINE is installed at this URL **http://www.mysite.com/meacine**.
 
-Start Kodi. Go to the menu System > Media Settings > Media Library > Source Management > Videos... > Add Video Source... Enter the path **http://www.mysite.com/meacine/kodi** and specify a source name (for example meaCINE). Click OK. In the New Content > Folder Category window, choose the Movies option. Then choose the settings according to your preferences, but keep the content options by default. Click OK. Finally, confirm the update of the information of all the elements of this path.
+Start Kodi. Go to the menu System > Media Settings > Media Library > Source Management > Videos... > Add Video Source... Enter the path **http://www.mysite.com/meacine/kodi** and specify a source name (for example meaCINE). Click OK. In the New Content > Folder Category window, choose the **Movies** option. Then choose the settings according to your preferences, but keep the content options by default. Click OK. Finally, confirm the update of the information of all the elements of this path.
 
 # meaCINE use
 
